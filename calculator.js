@@ -26,7 +26,7 @@ function handleInput(value) {
         string = string.substring(0, string.length - 1);
         input.value = string;
     } else {
-        const validChars = "0123456789+-*/.";
+        const validChars = "0123456789+-*/.% 00";
         if (validChars.includes(value)) {
             string += value;
             input.value = string;
